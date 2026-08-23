@@ -24,8 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/deepseek-ai/deepseek-harness.git",
-    "directory": "packages/client/ui-version-check"
+    "url": "git+https://github.com/aoaoms/dsh-client-ui-version-check.git"
   },
   "publishConfig": {
     "access": "public"
