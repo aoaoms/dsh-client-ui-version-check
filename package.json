@@ -1,0 +1,34 @@
+{
+  "name": "@deepseek-ai/dsh-client-ui-version-check",
+  "description": "Hover the top-left brand logo to show the installed dsh version and the latest updatable version, with release-notes details in a centered modal. Dual-face plugin: host half enriches host.describe with real version + latestVersion; client half renders a non-invasive hover popover and modal (zero external CSS).",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "scripts",
+    "docs"
+  ],
+  "dsh": {
+    "client": {
+      "platform": "web"
+    }
+  },
+  "scripts": {
+    "verify-translation-pairing": "node scripts/verify-translation-pairing.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepseek-ai/deepseek-harness.git",
+    "directory": "packages/client/ui-version-check"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
