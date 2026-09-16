@@ -1,7 +1,7 @@
 {
   "name": "@deepseek-ai/dsh-client-ui-version-check",
-  "description": "Hover the top-left brand logo to show the installed dsh version and the latest updatable version, with release-notes details in a centered modal. Dual-face plugin: host half enriches host.describe with real version + latestVersion; client half renders a non-invasive hover popover and modal (zero external CSS).",
-  "version": "0.1.0",
+  "description": "Hover the top-left brand logo to show the installed dsh version and the latest updatable version, with release-notes details in a centered modal. Dual-face plugin: the host half serves host version + latestVersion over its own /api/dsh-version-check route (legacy fallback: enriches host.describe); the client half renders a non-invasive hover popover and modal (zero external CSS).",
+  "version": "0.2.0",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
